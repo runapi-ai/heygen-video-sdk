@@ -1,0 +1,63 @@
+{
+  "name": "@runapi.ai/heygen-video",
+  "version": "0.1.0",
+  "description": "RunAPI HeyGen Video SDK for text-to-video, reference-guided, and image-to-video workflows with generated sound in JavaScript, Python, Ruby, Go, Java, and PHP",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "skills"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@runapi.ai/core": "^0.5.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "keywords": [
+    "runapi",
+    "runapi-ai",
+    "heygen-video",
+    "api",
+    "sdk",
+    "typescript",
+    "python",
+    "ruby",
+    "golang",
+    "java",
+    "maven",
+    "gradle",
+    "video-generation",
+    "text-to-video",
+    "image-to-video"
+  ],
+  "license": "Apache-2.0",
+  "runapi": {
+    "slug": "heygen-video"
+  },
+  "author": "RunAPI",
+  "homepage": "https://runapi.ai/models/heygen-video",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runapi-ai/heygen-video-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/runapi-ai/heygen-video-sdk/issues"
+  }
+}
