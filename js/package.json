@@ -23,7 +23,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@runapi.ai/core": "^0.5.2"
+    "@runapi.ai/core": "^0.5.4"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
